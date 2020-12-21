@@ -1,8 +1,6 @@
-import Head from "next/head";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import Link from 'next/link';
 
-export default function Home() {
+function About() {
   return (
     <div>
       <ul>
@@ -17,7 +15,9 @@ export default function Home() {
           </Link>
         </li>
       </ul>
-      <h1>This is Home page</h1>
+      <h1>This is about page</h1>
     </div>
   );
 }
+
+export default About;
