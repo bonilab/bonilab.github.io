@@ -12,7 +12,7 @@ export default function Home() {
         <div className="-mx-4">
           <img
             className="object-cover object-bottom w-full h-full my-6"
-            src="https://mol.ax/content/media/2019/08/thegroup_2015_4.43_ratio_wtext.jpg"
+            src="/img/home/top_cover_0.jpg"
           />
         </div>
         <Collaboration></Collaboration>
@@ -20,7 +20,7 @@ export default function Home() {
         <div className="-mx-4">
           <img
             className="object-cover object-bottom w-full h-full my-6"
-            src="http://mol.ax/content/media/main/vung_tau_team_pic_1400x350.jpg"
+            src="/img/home/bottom_cover_0.jpg"
           />
         </div>
       </div>
@@ -115,7 +115,7 @@ const Collaboration = (props) => (
           </div>
           <dl className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
             <div>
-              <CollaborationLogo img_url="https://malariamodelingconsortium.org/wp-content/uploads/2017/12/gates-foundation_0.png" />
+              <CollaborationLogo img_url="/img/home/gates-foundation_logo.png" />
               <div className="mt-2">
                 <dt className="text-lg leading-6 font-medium text-gray-900">
                   Malaria Modeling Consortium
@@ -133,7 +133,7 @@ const Collaboration = (props) => (
             </div>
 
             <div>
-              <CollaborationLogo img_url="http://www.oucru.org/wp-content/uploads/2013/04/logo.png" />
+              <CollaborationLogo img_url="/img/home/oucru_logo.png" />
               <div className="mt-2">
                 <dt className="text-lg leading-6 font-medium text-gray-900">
                   OUCRU and NIH-CEIRS
@@ -156,7 +156,7 @@ const Collaboration = (props) => (
             </div>
 
             <div>
-              <CollaborationLogo img_url="http://www.gorgas.gob.pa/wp-content/uploads/2019/01/logo-icges-header-transparente1.png" />
+              <CollaborationLogo img_url="/img/home/gorgas_logo.png" />
               <div className="mt-2">
                 <dt className="text-lg leading-6 font-medium text-gray-900">
                   Arboviral Interactions in Panama
@@ -177,7 +177,7 @@ const Collaboration = (props) => (
             </div>
 
             <div>
-              <CollaborationLogo img_url="https://www.tropmedres.ac/images/site-images/moru-updated-logo-2019" />
+              <CollaborationLogo img_url="/img/home/moru_logo.jpg" />
               <div className="mt-2">
                 <dt className="text-lg leading-6 font-medium text-gray-900">
                   DeTACT
