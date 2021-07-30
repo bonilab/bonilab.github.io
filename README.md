@@ -6,7 +6,7 @@ The project is built by using [Next.js](https://nextjs.org) and [Tailwind CSS](h
 + NodeJs
 + Yarn (optional)
 
-## To Start Deveveloment Server
+## To Start Development Server
 
 First, install the dependencies:
 ```bash
@@ -32,14 +32,12 @@ Add new markdown file in side the folder **data/people** with the following temp
 
 ```markdown
 ---
-
 name: 'Fullname'
 position: 'post-doc'
 order: 200
 photo_url: 'https://via.placeholder.com/350x150'
 
 ---
-
 <Markdown content>
 ```
 ### Projects
