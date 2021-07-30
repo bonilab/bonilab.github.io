@@ -51,6 +51,15 @@ export default function TopNav({ selected }) {
                       Publications
                     </a>
                   </Link>
+                  <Link href="/translated">
+                    <a
+                      className={`${getSelectedClass(
+                        "Bài Báo Khoa Học"
+                      )} hover:text-white px-3 py-2 rounded-md text-sm font-medium`}
+                    >
+                      Bài Báo Khoa Học
+                    </a>
+                  </Link>
                   <Link href="/opportunities">
                     <a
                       className={`${getSelectedClass(
@@ -58,16 +67,6 @@ export default function TopNav({ selected }) {
                       )} hover:text-white px-3 py-2 rounded-md text-sm font-medium`}
                     >
                       Opportunities
-                    </a>
-                  </Link>
-
-                  <Link href="/projects">
-                    <a
-                      className={`${getSelectedClass(
-                        "Projects"
-                      )} hover:text-white px-3 py-2 rounded-md text-sm font-medium`}
-                    >
-                      Projects
                     </a>
                   </Link>
 
